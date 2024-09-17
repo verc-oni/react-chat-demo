@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
 
 .App-logo {
@@ -36,3 +37,28 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+
+.chat-container {
+  margin-top: 20px;
+}
+
+.messages {
+  height: 200px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
